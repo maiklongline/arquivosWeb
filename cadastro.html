@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./estilização/estilos.css">
     <title>Conhecendo você</title>
+
 </head>
 <body>
     <header>
@@ -14,15 +15,20 @@
 
 
     <main>
-        <form class="contactForm">
+        <form class="contactForm" id="frmContato">
             <label for="nome">Nome</label>
-            <input type="text" name="Nome" required>
+            <input type="text" name="Nome" required id="txtName">
             <label for="Email">Email:</label>
-            <input type="email" name="Email" required>
+            <input type="email" name="Email" required id="txtEmail">
             <label for="mensagem">Mensagem</label>
             <textarea name="mensagem" rows="5" required></textarea>
-            <button class="botaoEnvio">Enviar Formulario</button>
+             <!-- botao para envio do formulário -->
+             
+            <input type="submit" class="botao" id="botaoEnvio">
         </form>
-    </main>
+    </main><samp></samp>
+
+    <script src="validacao.js"></script>
 </body>
+
 </html>
