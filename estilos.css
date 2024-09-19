@@ -51,8 +51,8 @@ nav ul li a{
 
 
 nav ul li a:hover{
-    /* color: #248f8d;
-    text-shadow: 0 0 5px rgba(244,222,0,0.8); */
+    color: #248f8d;
+    text-shadow: 0 0 5px rgba(244,222,0,0.8);
     transform: scale(1.1)
 }
 
@@ -92,18 +92,18 @@ input, textarea:hover{
     border-color:#eff3cd;   
 }
 
-button.botaoEnvio{
+.botao{
     padding: 15px 30px;
     background-color: #4A90E2;
     color: white;
     border-radius: 12px;
     cursor: pointer;
-    transition: background-color 03s ease;
+    transition: background-color  03s ease;
     border: none;
 
 }    
 
-button.botaoEnvio :hover{
+.botao :hover{
     background-color: #605063;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
     
@@ -119,4 +119,49 @@ footer{
     border-radius: 12px;
 }
 
-   
+.carrossel{
+    position: relative;
+    max-width: 100%;
+    margin-top: auto;
+    overflow: hidden;
+}
+
+.carrosel-conteiner{
+    /* establecer que as imagens se mantenham em horinzontal, podendo ir da esquerda à direita */
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carrosel-image{
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carrosel img{
+    width: 100%;
+    display:block;
+    margin: 12px;
+}
+
+.botao-proximo , .botao-anterior{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    font-size:24px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    /* z-index ultrapassa 1 camada */
+    /* z-index: 1; */
+}
+
+.botao-proximo{
+    left: 10px;
+}
+
+.botao-anterior{
+    right: 10px;
+}
