@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #333;
+}
+
+h1{
+    color: aliceblue;
+}
+
+label{
+    color: aliceblue;
+}
+#frmBuscaFilme{
+    margin-right: 10px;
+}
+
+#resultado{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
