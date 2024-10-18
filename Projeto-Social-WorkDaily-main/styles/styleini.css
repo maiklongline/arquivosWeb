@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+body {
+    background-color: #ffffff;
+    color: #ECF0F1;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #003366;
+    width: 100%;
+    height: 377px;
+}
+
+header h1 {
+    font-size: 64px;
+    font-family:'Montserrat' ;
+    color: #CCCCCC;
+    margin-left:54px;
+}
+
+
+.botaoRegistro button{
+    border-radius: 14px;
+    width: 144px;
+    height: 44px;
+    font-family: 'Montserrat';
+    background-color: #FFFFFF;
+    font-weight: 700;
+    margin-right: 29px;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    max-width: 1390px;
+    width: 100%;
+    height: 78px;
+    background: #CCCCCC;
+
+    margin: 150px 0 0 25px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    border-radius: 12px;
+    /* font-size: 25px; */
+
+}
+nav {
+   display: inline;
+   
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    
+    list-style: none;
+    font-family: 'Raleway';
+    font-weight: 600;
+    gap: 75px;
+    margin: 0 auto;
+    
+}
+
+
+
+
+
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+main {
+    color: #003366;
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.container2 section {
+    margin: 50px;
+    padding: 12px;
+    width: 331px;
+    height: 356px;
+    opacity: 0px;
+    color: #000000;
+    background: #99CC99;
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 7.7px -3px #00000040;
+    font-size: 27px;
+}
+
+.coment1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.coment2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.coment3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.operacao {
+    display: flex;
+    gap: 100px;
+    margin-left: 30px;
+}
+
+.operacao section {
+    flex: 1;
+}
+
+.tuto {
+    padding: 35px;
+    max-width: 1100px;
+    max-height: 366px;
+    gap: 0px;
+    opacity: 0px;
+    color: #000000;
+    background: #CCCCCC;
+    box-shadow: 0px 10px 7.7px -3px #00000040;
+    font-size: 30px;
+}
+
+.tuto h1 {
+    color: #003366;
+    font-size: 30px;
+}
+
+.propaganda {
+    padding: 25px;
+    max-width: 274px;
+    max-height: 366px;
+    gap: 0px;
+    opacity: 0px;
+    background: #003366;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+
+}
+
+.propaganda button {
+    margin-top: 70px;
+    font-size: 24px;
+    width: 220px;
+    height: 57px;
+    border-radius: 19px;
+    opacity: 0px;
+
+}
+
+.momento {
+    margin-top: 70px;
+    font-size: 25px;
+
+}
+
+.momento h1 {
+    text-align: center;
+}
+
+.serv1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-left: 80px;
+}
+
+.serv2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-left: 80px;
+}
+
+.esq {
+    margin-right: 300px;
+}
+
+.serv1 h2 {
+    flex: 1;
+}
+
+.serv2 h2 {
+    flex: 1;
+}
+
+footer {
+    padding: 20px;
+    border-radius: 39px 39px 0px 0px;
+    opacity: 0px;
+    background-color: #003366;
+}
+
+footer h1 {
+    text-align: left;
+}
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.container3 section {
+    flex: 1;
+}
+
+.content {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.container3 ul p {
+    flex: 1;
+}
+
+.location ul li {
+    margin-bottom: 10px;
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #D9D9D9;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.social h1 {
+    font-size: 40px;
+}
+
+.social img {
+    padding: 35px;
+}
