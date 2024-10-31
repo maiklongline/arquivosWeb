@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <title>Central De Cadastro</title>
+    <script src="cript.js"></script>
+</head>
+
+<body class="conteiner mt-4">
+    <h3>Cadastro de Usuarios</h3>
+    <div class="form-group">
+        <input type="text" id="txtNome" placeholder="Nome" class="form-control mb-2">
+        <input type="text" id="txtEmail" placeholder="Email" class="form-control mb-2">
+        <input type="text" id="txtCpf" placeholder="CPF" class="form-control mb-2">
+        <button  onclick="salvarCadastro()"  class="btn btn-primary mb-2">Cadastrar</button>
+        <button onclick="exibirTodosRegistros()"  class="btn btn-secundary mb-2">Exibir Todos</button>
+    </div>
+
+    <div class="form-group">
+        <input type="text" id="txtCpfBuscar" placeholder="Digite seu CPF" class="form-control mb-2">
+        <button class="bnt btn-info">Exibir Registro</button>
+    </div>
+
+    <h3>
+        Registro na base
+    </h3>
+
+    <ul id="ListaRegistro" class="list-group"></ul>
+</body>
+
+</html>
